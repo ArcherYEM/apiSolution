@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\work1\\APISolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C427E331-3ADC-4FCE-9B59-3BB9E877962B}|APISolution.csproj|c:\\work1\\apisolution\\apisolution.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C427E331-3ADC-4FCE-9B59-3BB9E877962B}|APISolution.csproj|solutionrelative:apisolution.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5353010A-4AFD-4BFE-9C6E-7BDD49F828CE}|..\\amazon-pay-api-sdk-dotnet-master\\amazon-pay-api-sdk-dotnet-master\\Amazon.Pay.API.SDK\\Amazon.Pay.API.SDK.csproj|c:\\work1\\amazon-pay-api-sdk-dotnet-master\\amazon-pay-api-sdk-dotnet-master\\amazon.pay.api.sdk\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C427E331-3ADC-4FCE-9B59-3BB9E877962B}|APISolution.csproj|c:\\work1\\apisolution\\controllers\\amazonapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C427E331-3ADC-4FCE-9B59-3BB9E877962B}|APISolution.csproj|solutionrelative:controllers\\amazonapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C427E331-3ADC-4FCE-9B59-3BB9E877962B}|APISolution.csproj|c:\\work1\\apisolution\\views\\amazon\\amazonpay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C427E331-3ADC-4FCE-9B59-3BB9E877962B}|APISolution.csproj|solutionrelative:views\\amazon\\amazonpay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C427E331-3ADC-4FCE-9B59-3BB9E877962B}|APISolution.csproj|c:\\work1\\apisolution\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C427E331-3ADC-4FCE-9B59-3BB9E877962B}|APISolution.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "APISolution",
+              "DocumentMoniker": "C:\\work1\\APISolution\\APISolution.csproj",
+              "RelativeDocumentMoniker": "APISolution.csproj",
+              "ToolTip": "C:\\work1\\APISolution\\APISolution.csproj",
+              "RelativeToolTip": "APISolution.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-06T15:23:24.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\work1\\amazon-pay-api-sdk-dotnet-master\\amazon-pay-api-sdk-dotnet-master\\Amazon.Pay.API.SDK\\Client.cs",
+              "RelativeDocumentMoniker": "..\\amazon-pay-api-sdk-dotnet-master\\amazon-pay-api-sdk-dotnet-master\\Amazon.Pay.API.SDK\\Client.cs",
+              "ToolTip": "C:\\work1\\amazon-pay-api-sdk-dotnet-master\\amazon-pay-api-sdk-dotnet-master\\Amazon.Pay.API.SDK\\Client.cs",
+              "RelativeToolTip": "..\\amazon-pay-api-sdk-dotnet-master\\amazon-pay-api-sdk-dotnet-master\\Amazon.Pay.API.SDK\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T15:22:50.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AmazonPay.cshtml",
+              "DocumentMoniker": "C:\\work1\\APISolution\\Views\\Amazon\\AmazonPay.cshtml",
+              "RelativeDocumentMoniker": "Views\\Amazon\\AmazonPay.cshtml",
+              "ToolTip": "C:\\work1\\APISolution\\Views\\Amazon\\AmazonPay.cshtml",
+              "RelativeToolTip": "Views\\Amazon\\AmazonPay.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAywDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T15:06:56.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AmazonAPIController.cs",
+              "DocumentMoniker": "C:\\work1\\APISolution\\Controllers\\AmazonAPIController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AmazonAPIController.cs",
+              "ToolTip": "C:\\work1\\APISolution\\Controllers\\AmazonAPIController.cs",
+              "RelativeToolTip": "Controllers\\AmazonAPIController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T15:04:10.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\work1\\APISolution\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\work1\\APISolution\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T14:43:49.143Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

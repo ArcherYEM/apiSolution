@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Pay</title>
+    <script src="https://static-fe.payments-amazon.com/checkout.js"></script>
+</head>
+<body>
+    <div id="AmazonPayButton"></div>
+
+    <script>
+        async function createCheckoutSession() {
+            const response = await fetch('/AmazonAPI/createCheckoutSession', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    amount: 2000, // 결제 금액 (엔화)
+                    currencyCode: 'JPY', // 통화 코드
+                    orderId: 'order123' // 주문 ID
+                })
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                return result.CheckoutSessionId;
+            } else {
+                console.error(result.Message);
+                return null;
+            }
+        }
+
+        async function renderAmazonPayButton() {
+            const checkoutSessionId = await createCheckoutSession();
+
+            if (checkoutSessionId) {
+                amazon.Pay.renderButton('#AmazonPayButton', {
+                    merchantId: 'your-merchant-id', // 실제 상인 ID로 변경하세요
+                    createCheckoutSessionConfig: {
+                        payloadJSON: JSON.stringify({
+                            checkoutSessionId: checkoutSessionId
+                        }),
+                        signature: '', // 서버에서 생성된 서명을 사용해야 합니다.
+                        publicKeyId: '' // 서버에서 제공된 공개 키 ID를 사용해야 합니다.
+                    },
+                    ledgerCurrency: 'JPY',
+                    placement: 'Checkout',
+                    buttonColor: 'Gold'
+                });
+            }
+        }
+
+        renderAmazonPayButton();
+    </script>
+</body>
+</html>
